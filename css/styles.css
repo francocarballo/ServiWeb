@@ -1,0 +1,175 @@
+  body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+  .navbar-brand {
+    overflow: hidden;
+    padding: 0;
+  }
+  .navbar-brand img{
+    padding: 5%;
+    height: 100%;
+    float: left;
+  }
+  .navbar-brand h3 {
+    color: black;
+    float: left;
+    margin-top: 11px;
+  }
+  .search-btn {
+    float: left;
+  }
+  .search-btn:hover{
+    background: rgb(83, 156, 200);
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+  }
+  .navbar-btn {
+  }
+  .navbar-btn:hover{
+    background: rgb(83, 156, 200);
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+  }
+=======
+.intro {
+  width: 100%;
+  overflow: hidden;
+}
+.intro h1 {
+text-align: center;
+}
+.categoria {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+  height: 200px;
+  background-color: #f8f8f8;
+}
+.lista-cate li a:hover{
+  background: rgb(83, 156, 200);
+  text-decoration: none;
+  transition: 0.3s;
+  color: white;
+}
+.cate-info {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 20px;
+  background-color: #D8D8D8;
+}
+.cate-info h2 a{
+  text-decoration: none;
+}
+.cate-info p {
+  margin-left: 20px;
+}
+.cate-tops {
+  overflow: hidden;
+  height: 200px;
+}
+.servicio {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin: 0 10px 0 10px;
+  background-color: #D8D8D8;
+  border-color: #e7e7e7;
+  border-style: solid;
+}
+.mas {
+  height: 140px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  margin: 30px 0 30px;
+  width: 15%;
+  float: right;
+}
+.mas:hover {
+  height: 160px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin: 20px 0 20px;
+  width: 15%;
+  float: right;
+  transition: 0.7s;
+}
+.formregistro {
+  background-color: whithe;
+  text-align: inherit;
+}
+
+  footer {
+    width: 100%;
+    height: 70px;
+    background-color: #D8D8D8;
+    border-color: #e7e7e7;
+    overflow: hidden;
+  }
+  .dropdown {
+    display: none;
+  }
+  .lista-cate {
+    list-style-type: none;
+  }
+  .lista-cate li{
+    text-decoration: none;
+    display: block;
+    display: inline-block;
+  }
+  .lista-cate li a{
+    color: black;
+    border-radius: 4px;
+    background-color: #D8D8D8;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 24px;
+    padding: 1px 10px;
+    margin: 0 10px 0 10px;
+  }
+  .serv-faq {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+  }
+
+  .serv-info {
+    width: 30%;
+    float: left;
+    height: 220px;
+  }
+  .serv-info h3 {
+    text-align: center;
+  }
+  .serv-info ul {
+    list-style-type: none;
+  }
+
+  .mid {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  @media (max-width: 1020px) {
+    .navbar-right {
+      display: none;
+    }
+    .dropdown {
+      display: block;
+    }
+    .main {
+      display: none;
+    }
+    .como-funciona {
+      overflow: hidden;
+      height: 400px;
+    }
+  }

@@ -1,0 +1,8 @@
+
+register-box {
+  box-sizing: border-box;
+  margin-left: 45%;
+  border: 20px;
+  display: inline-block;
+  text-align: center;
+}

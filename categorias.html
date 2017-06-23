@@ -1,0 +1,187 @@
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>ServiWEB</title>
+
+    <!-- Bootsrtap CDNs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header" style="width: 25%">
+          <a class="navbar-brand" href="">
+            <img alt="Brand" src="img/logo.png">
+            <h3>ServiWEB.com</h3>
+          </a>
+        </div>
+        <form class="navbar-form navbar-left " style="width: 50%">
+          <div class="form-group search-btn" style="width: 85%">
+            <input type="text" class="form-control" placeholder="Search" style="width: 100%">
+          </div>
+           <button type="submit" class="btn btn-default search-btn" style="width: 15%">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+           </button>
+         </form>
+         <div class="navbar-right navbar-btns" style="width: 25%">
+           <button type="button" class="btn btn-default navbar-btn">Ingresa</button>
+           <button type="button" class="btn btn-default navbar-btn">Registrate</button>
+           <button type="button" class="btn btn-default navbar-btn">Publica</button>
+         </div>
+         <div class="dropdown">
+           <button class="btn btn-default navbar-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+           </button>
+           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+             <li class="dropdown-item" href="#">
+               <button type="button" class="btn btn-default navbar-btn">Ingresa</button>
+             </li>
+             <li class="dropdown-item" href="#">
+               <button type="button" class="btn btn-default navbar-btn">Registrate</button>
+             </li>
+             <li class="dropdown-item" href="#">
+               <button type="button" class="btn btn-default navbar-btn">Publica</button>
+             </li>
+           </ul>
+         </div>
+      </div>
+    </nav>
+
+    <h1>¿Que tipo de servicio buscas?</h1>
+    <div class="listacat">
+      <div class="cat">
+        <h3>Servicios para el hogar: </h3>
+            <ul>
+              <li><a href="#">Plomeria</a></li>
+              <li><a href="#">Electrisista</a></li>
+              <li><a href="#">Gasistas</a></li>
+              <li><a href="#">Limpieza</a></li>
+              <li><a href="#">Seguridad/Vigilancia</a></li>
+              <li><a href="#">Tech</a></li>
+              <li><a href="#">Jardineria</a></li>
+              <li><a href="#">Carpinteria</a></li>
+              <li><a href="#">Babysitter</a></li>
+            </ul>
+      </div>
+      <div class="cat">
+          <h3>Servicios legales: </h3>
+            <ul>
+              <li><a href="#">Abogados</a></li>
+              <li><a href="#">Contadurias</a></li>
+              <li><a href="#">Escribania</a></li>
+              <li><a href="#">Martillero</a></li>
+            </ul>
+          </div>
+        <div class="catlarga">
+            <h3>Clases:</h3>
+            <ul>
+              <li class="titulo">Instrumentacion Musical:</li>
+                <ul>
+                  <li><button type="button" name="button">Guitarra</button></li>
+                  <li><button type="button" name="button">Piano</button></li>
+                  <li><button type="button" name="button">Bateria</button></li>
+                  <li><button type="button" name="button">Canto</button></li>
+                  <li><a href="#">Flauta</a></li>
+                  <li><a href="#">Saxo</a></li>
+                  <li><a href="#">Mixer</a></li>
+                  <li><a href="#">Composicion Musical</a></li>
+                  <li><a href="#">Lectura de partituras</a></li>
+                </ul>
+              <li class="titulo">Idiomas:</li>
+                <ul>
+                  <li><button type="button" name="button">Frances</button></li>
+                  <li><a href="#">Ingles</a></li>
+                  <li><a href="#">Aleman</a></li>
+                  <li><a href="#">Español</a></li>
+                  <li><a href="#">Ruso</a></li>
+                  <li><a href="#">Cantones</a></li>
+                  <li><a href="#">Catalan</a></li>
+                  <li><a href="#">Latin</a></li>
+                  <li><a href="#">Japones</a></li>
+                  <li><a href="#">Arabe</a></li>
+                </ul>
+              <li class="titulo">Educación:</li>
+                <ul>
+                  <li><a href="#">Historia</a></li>
+                  <li><a href="#">Matematica</a></li>
+                  <li><a href="#">Lengua y Literatura</a></li>
+                  <li><a href="#">Fisica</a></li>
+                  <li><a href="#">Quimica</a></li>
+                  <li><a href="#">Biologia</a></li>
+                  <li><a href="#">Religion</a></li>
+                </ul>
+              <li class="titulo">Arte</li>
+                <ul>
+                  <li><a href="#">Escultura</a></li>
+                  <li><a href="#">Pintura</a></li>
+                  <li><a href="#">Barro</a></li>
+                  <li><a href="#">Tiza</a></li>
+                  <li><a href="#">Lapiz</a></li>
+                  <li><a href="#">Oleo</a></li>
+                  <li><a href="#">Madera</a></li>
+                </ul>
+              </div>
+              <div class="cat">
+                <h3>Eventos: </h3>
+                  <ul>
+                    <li><a href="#">Organizadores</a></li>
+                    <li><a href="#">Catering</a></li>
+                    <li><a href="#">Iluminacion</a></li>
+                    <li><a href="#">Seguridad</a></li>
+                    <li><a href="#">Transporte</a></li>
+                    <li><a href="#">Lugar</a></li>
+                    <li><a href="#">DJ</a></li>
+                    <li><a href="#">Sonidista</a></li>
+                    <li><a href="#">Maquillador</a></li>
+                    <li><a href="#">Animadores</a></li>
+                    <li><a href="#">Bandas</a></li>
+                  </ul>
+              </div>
+            <div class="cat">
+              <h3>Salud:</h3>
+                  <ul>
+                    <li><a href="#">Kinesiologia</a></li>
+                    <li><a href="#">Acuputura</a></li>
+                    <li><a href="#">Psicologia/Psiquiatria</a></li>
+                    <li><a href="#">Odontologo</a></li>
+                    <li><a href="#">Masajista</a></li>
+                    <li><a href="#">Traumatologia</a></li>
+                    <li><a href="#">Dermatologia</a></li>
+                    <li><a href="#">Cadiologia</a></li>
+                    <li><a href="#">Medicina del deporte</a></li>
+                  </ul>
+              </div>
+              <div class="cat">
+                <h3>Estetica: </h3>
+                <ul>
+                    <li><a href="#">Peluqueria</a></li>
+                    <li><a href="#">Manicura</a></li>
+                    <li><a href="#">Pedicura</a></li>
+                    <li><a href="#">Depiladora</a></li>
+                    <li><a href="#">Elecroterapia</a></li>
+                    <li><a href="#">Maquilladora</a></li>
+               </div>
+             </ul>
+           </div>
+         </div>
+         <footer>
+           <p>Gracias por usar nuestros servicios. Ante cualquier duda: </p>
+           <ul>
+             <li class="lifo"><a href="#">Contactanos</a></li>
+             <li class="lifo"><a href="#">FAQs</a></li>
+             <li class="lifo"><a href="#">Llamanos</a></li>
+           </ul>
+         </footer>
+
+
+
+</body>
