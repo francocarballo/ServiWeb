@@ -2,6 +2,10 @@
   font-family: 'Raleway', sans-serif;
   text-align: center;
   }
+  .vmiddle {
+  display: flex;
+  align-items: center;
+}
   .navbar {
     margin-bottom: 0px;
   }
@@ -38,7 +42,6 @@
   }
 =======
 .intro {
-  width: 100%;
   overflow: hidden;
 }
 .intro h1 {
@@ -47,8 +50,6 @@ text-align: center;
 .categoria {
   margin-top: 10px;
   margin-bottom: 10px;
-  float: left;
-  width: 100%;
   height: 200px;
   background-color: #f8f8f8;
 }
@@ -59,15 +60,17 @@ text-align: center;
   color: white;
 }
 .cate-info {
-  float: left;
   height: 200px;
-  width: 200px;
   margin-left: 10px;
   margin-right: 20px;
   background-color: #D8D8D8;
 }
 .cate-info h2 a{
   text-decoration: none;
+  color: black;
+}
+.cate-info h2 a:hover{
+color: rgb(83, 156, 200);
 }
 .cate-info p {
   margin-left: 20px;
@@ -77,43 +80,28 @@ text-align: center;
   height: 200px;
 }
 .servicio {
-  float: left;
   height: 200px;
-  width: 300px;
-  margin: 0 10px 0 10px;
   background-color: #D8D8D8;
   border-color: #e7e7e7;
   border-style: solid;
 }
 .mas {
-  height: 140px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-  margin: 30px 0 30px;
+  height: 100px;
+  margin-top: 50px;
   width: 15%;
   float: right;
 }
 .mas:hover {
-  height: 160px;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  margin: 20px 0 20px;
+  margin-top: 30px;
+  height: 140px;
   width: 15%;
   float: right;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 .formregistro {
   background-color: whithe;
   text-align: inherit;
 }
-
-  footer {
-    width: 100%;
-    height: 70px;
-    background-color: #D8D8D8;
-    border-color: #e7e7e7;
-    overflow: hidden;
-  }
   .dropdown {
     display: none;
   }
@@ -136,15 +124,7 @@ text-align: center;
     margin: 0 10px 0 10px;
   }
   .serv-faq {
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: left;
-  }
-
-  .serv-info {
-    width: 30%;
-    float: left;
-    height: 220px;
   }
   .serv-info h3 {
     text-align: center;
@@ -153,10 +133,28 @@ text-align: center;
     list-style-type: none;
   }
 
-  .mid {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+footer {
+  margin-top: 50px;
+  background-color: #D8D8D8;
+  border-color: #e7e7e7;
+}
+.footer-brand{
+  text-align: left;
+}
+.footer-brand img{
+  height: 30px;
+  margin: 10px;
+}
+.footer-brand p{
+  margin: 0;
+}
+.social {
+  text-align: right;
+}
+.social i{
+  color: black;
+  margin: 5px 10px;
+}
 
   @media (max-width: 1020px) {
     .navbar-right {
