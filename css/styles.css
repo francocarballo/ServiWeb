@@ -5,7 +5,7 @@
   .vmiddle {
   display: flex;
   align-items: center;
-}
+  }
   .navbar {
     margin-bottom: 0px;
   }
@@ -33,6 +33,7 @@
     color: white;
   }
   .navbar-btn {
+    font-weight: 700;
   }
   .navbar-btn:hover{
     background: rgb(83, 156, 200);
@@ -66,11 +67,13 @@ text-align: center;
   background-color: #D8D8D8;
 }
 .cate-info h2 a{
+  font-weight: 600;
   text-decoration: none;
   color: black;
 }
 .cate-info h2 a:hover{
-color: rgb(83, 156, 200);
+  text-decoration: underline;
+  color: rgb(83, 156, 200);
 }
 .cate-info p {
   margin-left: 20px;
@@ -165,9 +168,5 @@ footer {
     }
     .main {
       display: none;
-    }
-    .como-funciona {
-      overflow: hidden;
-      height: 400px;
     }
   }
